@@ -4018,3 +4018,21 @@ input:focus-visible {
 .invite-close-button:hover{
   color: black;
 }
+.lb-image {
+width: 100%;
+height: auto;
+}
+.lb-dataContainer {
+  width: 1000px;
+   height: auto;
+}
+.lb-nav a.lb-prev, .lb-nav a.lb-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Background color of navigation buttons */
+  border-radius: 50%; /* Make the navigation buttons circular */
+  width: 50px; /* Width of navigation buttons */
+  height: 50px; /* Height of navigation buttons */
+  line-height: 50px; /* Center the text vertically */
+  text-align: center; /* Center the text horizontally */
+  font-size: 24px; /* Font size of navigation buttons */
+  color: white; /* Color of navigation buttons */
+}
